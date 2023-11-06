@@ -1,0 +1,52 @@
+/* making the website responsive by adding media queries when screen width become w*h 977*425 */
+
+
+
+@media only screen and (max-width:977px){
+    .navbar-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.7s ease-out;
+    }
+    .search-bar{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+        padding: 40px 0px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .para-heading {
+        padding: 0 1px;
+    }
+    .text-small {
+        text-align: left;
+    }
+}

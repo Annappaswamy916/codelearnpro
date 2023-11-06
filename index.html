@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>CodeLearPro</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="navbar-list v-class-resp">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="logo">
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <div class="search-bar v-class-resp">
+        <input type="text" name="search" id="search" placeholder="search here"/>
+        <button class="btn btn-small">search</button>
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</nav>
+
+<section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="first-half">
+                <p class="text-big">Welcome To The CodeLearPro</p>
+                <p class="text-small">Learn to code for free, build projects and earn certificates from our free learning we</p>
+                <div class="buttons">
+                    <button class="btn">Log-in</button>
+                    <button class="btn">Register</button>
+                </div>
+                
+            </div>
+            <div class="second-half">
+                <img src="images/image1.jpg" alt="computer image" width="200px" height="200px">
+            </div>
+        </div>
+    </section>
+    
+    <section class="section secRight" id="courses">
+        <div class="para-heading">
+            <p class="sectionTag text-big">PYTHON COURSE</p>
+            <p class="sectionSubTag text-small">Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming. 
+            </p>
+            <div class="buttons1">
+                <button class="btn1">Enroll-now</button>
+            </div>
+        </div>
+        <div class="thumbnail">
+                <img src="images/python.png" alt="python image" class="python">
+            </div>
+    </section>
+    <hr class="divide-line">
+    
+    <section class="section secLeft">
+        <div class="para-heading">
+            <p class="sectionTag text-big">JAVA COURSE</p>
+            <p class="sectionSubTag text-small">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.   
+            </p>
+            <div class="buttons1">
+                <button class="btn1">Enroll-now</button>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="images/java.png" alt="java image" class="java python">
+        </div>
+    </section>
+    <hr class="divide-line">
+
+    <section class="section secRight">
+        <div class="para-heading">
+            <p class="sectionTag text-big">JAVASCRIPT COURSE</p>
+            <p class="sectionSubTag text-small">JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. Most web browsers have a dedicated JavaScript engine to execute the code on the user's device.   
+            </p>
+            <div class="buttons1">
+                <button class="btn1">Enroll-now</button>
+            </div>
+        </div>
+        <div class="thumbnail">
+            <img src="images/javascriptpng.png" alt="javascript image" class="javascript python">
+        </div>
+    </section>
+    <hr class="divide-line">
+    
+    <section class="contact" id="contact">
+        <h2 class="cont-head">Contact Us</h2>
+        <div class="form">
+            <input class="input-form" type="text" name="name" id="name" placeholder="Enter your name"/>
+            <input class="input-form" type="number0" name="mobile" id="mobile" placeholder="Enter your Mobile number"/>
+            <input class="input-form" type="email" name="email" id="email" placeholder="Enter your Email-id"/>
+            <textarea class="input-form" name="text" id="text" cols="40" rows="10" placeholder="Description"></textarea>
+            <button class="btn extrabtn">Submit</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="copyright background">
+            copyright &copy: 2021 CodeLearningplatform - All rights are reserved
+        </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
